@@ -1,0 +1,113 @@
+/* Container Styling */
+.app-download-container {
+    display: flex;
+    align-items: flex-start; /* Align items at the top */
+    gap: 20px; /* Space between the image and text sections */
+    padding: 40px;
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    width: 100%;
+  }
+  
+  /* Left Section for Images */
+  .left-section {
+    width: 30%; /* Left side occupies half the width */
+    display: flex;
+    justify-content: center; /* Center the image within the section */
+  }
+  
+  .main-image img {
+    width: 50%; /* Adjust size to fit the layout */
+    border-radius: 20px;
+  }
+  
+  /* Right Section for Content */
+  .right-section {
+    width: 20%; /* Adjust width for proper spacing */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: flex-start; /* Align items at the top */
+    gap: 20px; /* Space between elements */
+  }
+  
+  /* Header and Paragraph Styling */
+  .right-section h2 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+  }
+  
+  .right-section p {
+    font-size: 16px;
+    color: #666;
+    margin: 0; /* Remove margins for better stacking */
+  }
+  
+  /* Phone Input Form Styling */
+  .phone-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .phone-input {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+    flex: 1; /* Makes the input stretch */
+  }
+  
+  .phone-input span {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .phone-input input {
+    border: none;
+    outline: none;
+    font-size: 14px;
+    flex: 1; /* Ensures the input stretches within the form */
+  }
+  
+  /* Button Styling */
+  .send-sms-button {
+    background-color: #00aaff;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .send-sms-button:hover {
+    background-color: #008fcc;
+  }
+  
+  /* Download Buttons Styling */
+  .download-buttons {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    gap: 10px; /* Space between the buttons */
+  }
+  
+  .google-play-button,
+  .app-store-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .google-play-button:hover,
+  .app-store-button:hover {
+    background-color: #555;
+  }
+  

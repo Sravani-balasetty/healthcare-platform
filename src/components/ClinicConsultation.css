@@ -1,0 +1,95 @@
+/* General reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .app {
+    padding: 20px;
+  }
+  
+  /* Header section */
+  .header {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+  }
+  
+  .header p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Horizontal Scrollable Section */
+  .scrollable-section {
+    position: relative;
+  }
+  
+  .horizontal-scroll-container {
+    display: flex;
+    align-items: center;
+    overflow-x: auto; /* Enables horizontal scrolling */
+    gap: 16px;
+    padding-bottom: 10px;
+    scroll-behavior: smooth; /* Smooth scrolling effect */
+  }
+  
+  .horizontal-scroll-container::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .horizontal-scroll-container::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 4px;
+  }
+  
+  .horizontal-scroll-container::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  
+  /* Card styling */
+  .card {
+    flex: 0 0 200px; /* Fixed card width */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 150px;
+    object-fit: fill;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    color: #007bff;
+    text-decoration: none;
+    margin: 8px 0;
+  }
+  
+  .card-title:hover {
+    text-decoration: underline;
+  }
+  
+  .card-description {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .card-description:hover {
+    text-decoration: underline;
+  }
+  
+  
+  
+  
+  

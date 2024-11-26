@@ -1,0 +1,50 @@
+.search-bar-container {
+    display: flex;
+    justify-content: center; /* Centers the search bar horizontally */
+    margin: 20px auto; /* Adds spacing above and below the search bar */
+    width: 50%; /* Restricts the width of the search bar to half the page */
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .location {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .location-icon {
+    margin-right: 5px;
+  }
+  
+  .search-box {
+    flex: 1;
+    position: relative;
+  }
+  
+  .search-box input {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 8px 15px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
